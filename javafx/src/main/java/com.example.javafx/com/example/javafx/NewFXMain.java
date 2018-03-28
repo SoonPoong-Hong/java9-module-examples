@@ -51,7 +51,7 @@ public class NewFXMain extends Application {
         marketingJibberish.setFont(Font.font(null, FontWeight.BOLD, 24));
         marketingJibberish.setX(2);
         marketingJibberish.setY(75);
-        marketingJibberish.setText("Helping you bring home the bacon");
+        marketingJibberish.setText("xxxxxxxxxxxxxxx");
 
         //Create the first row of buttons
         HBox buttonContainer1 = new HBox(10);
