@@ -1,0 +1,2 @@
+JAVA_VERSION="9.0.4"
+MODULES="java.base java.xml java.prefs java.datatransfer java.desktop javafx.base jdk.jsobject javafx.graphics javafx.controls com.example.javafx"

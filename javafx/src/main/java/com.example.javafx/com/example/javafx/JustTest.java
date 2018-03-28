@@ -9,6 +9,6 @@ public class JustTest {
 	}
 
 	void test() {
-		System.out.println("==");
+		System.out.println("=xxxxx=");
 	}
 }

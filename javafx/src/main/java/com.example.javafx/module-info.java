@@ -1,4 +1,4 @@
-module rocklike.java9.moduletest2 {
+module com.example.javafx {
 	exports com.example.javafx;
 
 	requires javafx.base;

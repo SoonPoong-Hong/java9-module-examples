@@ -1,2 +1,14 @@
 javac -d out --module-source-path src/main/java --module com.example.javafx
 
+jar -c --file=out-jar/rocklike.jar -C out/com.example.javafx .
+
+jar -c --file=out-jar/rocklike2.jar --main-class=com.example.javafx.NewFXMain -C out/com.example.javafx .
+
+java --module-path out-jar -m com.example.javafx/com.example.javafx.NewFXMain
+
+java -jar out-jar/rocklike2.jar
+
+jlink --module-path "out;C:\Program Files\Java\jdk-9.0.4\jmods" --add-modules com.example.javafx --output out-standalone
+
+bin\java --module com.example.javafx/com.example.javafx.NewFXMain
+
